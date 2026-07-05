@@ -1,5 +1,4 @@
 # Portfolio-website
-Professional Portfolio Website built with React and Node.js
 
 <!DOCTYPE html>
 <html lang="en">
