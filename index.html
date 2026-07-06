@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akash Nishad — Supply Chain Analyst Portfolio</title>
+<meta name="description" content="Portfolio of Akash Nishad, Supply Chain Analyst candidate — projects, skills, and experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Shipment progress tracker (signature element) -->
+<div class="tracker" aria-hidden="true">
+  <div class="tracker-line">
+    <div class="tracker-fill" id="trackerFill"></div>
+  </div>
+  <div class="tracker-stops">
+    <span class="stop active" data-target="hero"><i></i>Origin</span>
+    <span class="stop" data-target="about"><i></i>Manifest</span>
+    <span class="stop" data-target="skills"><i></i>Cargo</span>
+    <span class="stop" data-target="projects"><i></i>Shipments</span>
+    <span class="stop" data-target="contact"><i></i>Destination</span>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">A.NISHAD</a>
+    <nav class="nav-links">
+      <a href="#about">Manifest</a>
+      <a href="#skills">Cargo</a>
+      <a href="#projects">Shipments</a>
+      <a href="#contact">Destination</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">TRACKING NO. SCA–2026–01 &nbsp;·&nbsp; STATUS: IN TRANSIT</p>
+      <h1 class="hero-title">Akash Nishad</h1>
+      <p class="hero-role">Supply Chain Analyst Candidate</p>
+      <p class="hero-sub">MBA &nbsp;·&nbsp; MS Engineering Management, Expected 2027</p>
+      <p class="hero-desc">
+        <!-- PLACEHOLDER: replace with your one-line value proposition -->
+        I move data the way good operators move freight — on time, in full, with a plan for when it isn't.
+        This is the record of how I do it.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Shipments</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <svg class="hero-route" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,150 C 200,50 400,180 600,100 S 1000,20 1200,90" class="route-path"/>
+      <circle cx="0" cy="150" r="5" class="route-dot"/>
+      <circle cx="1200" cy="90" r="5" class="route-dot"/>
+    </svg>
+  </section>
+
+  <!-- ABOUT / MANIFEST -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="section-label">01 — Manifest</p>
+      <h2 class="section-title">Who's shipping</h2>
+      <div class="manifest-grid">
+        <div class="manifest-doc">
+          <!-- PLACEHOLDER: replace with your real bio, 3-4 sentences -->
+          <p>
+            I'm a supply chain and operations professional pursuing an MBA and MS in Engineering
+            Management, focused on turning messy operational data into decisions leadership can act on.
+            My background spans demand planning, logistics analytics, and process improvement —
+            with a habit of documenting the "why" behind every recommendation, not just the "what."
+          </p>
+          <p>
+            Outside of coursework, I build tools like this site to practice the same discipline I bring
+            to supply chains: clear structure, traceable decisions, and nothing shipped without a QA pass.
+          </p>
+        </div>
+        <dl class="manifest-facts">
+          <div><dt>Based in</dt><dd>[Your City, State]</dd></div>
+          <div><dt>Focus</dt><dd>Supply Chain Analytics &amp; Ops</dd></div>
+          <div><dt>Education</dt><dd>MBA · MS Eng. Mgmt (2027)</dd></div>
+          <div><dt>Tools</dt><dd>Excel · SQL · Power BI · Python</dd></div>
+          <div><dt>Status</dt><dd>Open to internships / full-time roles</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS / CARGO -->
+  <section id="skills" class="section section-dark">
+    <div class="section-inner">
+      <p class="section-label">02 — Cargo Manifest</p>
+      <h2 class="section-title">What's on board</h2>
+      <div class="cargo-grid">
+        <div class="cargo-item">
+          <span class="cargo-code">01</span>
+          <h3>Demand &amp; Inventory Planning</h3>
+          <p>Forecasting, safety stock modeling, S&amp;OP process design.</p>
+        </div>
+        <div class="cargo-item">
+          <span class="cargo-code">02</span>
+          <h3>Data &amp; Analytics</h3>
+          <p>SQL, Excel/VBA, Power BI dashboards, Python for data cleaning.</p>
+        </div>
+        <div class="cargo-item">
+          <span class="cargo-code">03</span>
+          <h3>Process Improvement</h3>
+          <p>Lean/Six Sigma methods, root-cause analysis, workflow redesign.</p>
+        </div>
+        <div class="cargo-item">
+          <span class="cargo-code">04</span>
+          <h3>Logistics &amp; Sourcing</h3>
+          <p>Vendor evaluation, freight cost modeling, network optimization.</p>
+        </div>
+        <div class="cargo-item">
+          <span class="cargo-code">05</span>
+          <h3>Leadership</h3>
+          <p>Cross-functional coordination, stakeholder communication.</p>
+        </div>
+        <div class="cargo-item">
+          <span class="cargo-code">06</span>
+          <h3>Technical Initiative</h3>
+          <p>Git/GitHub, HTML/CSS/JS — building tools, not just using them.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / SHIPMENTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <p class="section-label">03 — Shipments</p>
+      <h2 class="section-title">Delivered work</h2>
+      <div class="shipments-list">
+
+        <article class="shipment">
+          <div class="shipment-meta">
+            <span class="shipment-id">SHP-001</span>
+            <span class="shipment-tag">Inventory Optimization</span>
+          </div>
+          <!-- PLACEHOLDER: replace with a real project title -->
+          <h3>Project Title Goes Here</h3>
+          <p>
+            One or two sentences on the problem, your approach, and the measurable result
+            (e.g., "reduced excess inventory by 18% across 3 SKU categories").
+          </p>
+          <a href="#" class="shipment-link">View case study →</a>
+        </article>
+
+        <article class="shipment">
+          <div class="shipment-meta">
+            <span class="shipment-id">SHP-002</span>
+            <span class="shipment-tag">Process Redesign</span>
+          </div>
+          <h3>Project Title Goes Here</h3>
+          <p>
+            Same structure — problem, approach, result. Keep it concrete and quantified
+            wherever possible; that's what a hiring manager scans for first.
+          </p>
+          <a href="#" class="shipment-link">View case study →</a>
+        </article>
+
+        <article class="shipment">
+          <div class="shipment-meta">
+            <span class="shipment-id">SHP-003</span>
+            <span class="shipment-tag">Data Dashboard</span>
+          </div>
+          <h3>Project Title Goes Here</h3>
+          <p>
+            A third project slot. Delete or duplicate this block as needed — each one
+            follows the same manifest format for consistency.
+          </p>
+          <a href="#" class="shipment-link">View case study →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / DESTINATION -->
+  <section id="contact" class="section section-dark">
+    <div class="section-inner">
+      <p class="section-label">04 — Destination</p>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="contact-sub">
+        Open to supply chain analyst and operations roles, internships, and conversations
+        about data-driven logistics. Reach out directly or through the form below.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-links">
+          <a href="mailto:your.email@example.com" class="contact-link">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">your.email@example.com</span>
+          </a>
+          <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank" rel="noopener">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/yourprofile</span>
+          </a>
+          <a href="https://github.com/yourusername" class="contact-link" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/yourusername</span>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note">
+            Note: this form doesn't send anywhere yet — connect it to a service like
+            Formspree or Netlify Forms before launch.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Akash Nishad. Built with HTML, CSS &amp; JavaScript — hosted on GitHub Pages.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
